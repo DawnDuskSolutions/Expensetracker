@@ -20,6 +20,6 @@ spec:
       containers:
         - image: 404989667098.dkr.ecr.us-east-2.amazonaws.com/cicd-demo:latest
           imagePullPolicy: Always
-          name: repo_cicd
+          name: cicd-demo
           ports:
             - containerPort: 8080
